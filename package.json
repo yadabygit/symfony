@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple symfony project with all major features",
   "repository": "github.com:yadabygit/symfony",
-  "author": "Daniel Yarmoluyk and Pashok",
+  "author": "Daniel Yarmoluyk <yarmdan@gmail.com> and Pavel Lutsiuk <6408416@gmail.com>",
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
