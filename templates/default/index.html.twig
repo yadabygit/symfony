@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{# style #}
+  {% block stylesheets %}
+    {{ parent() }}
+    {{ encore_entry_link_tags('index') }}
+  {% endblock %}
+
+{# js #}
+  {% block javascripts %}
+    {{ parent() }}
+    {{ encore_entry_script_tags('index') }}
+  {% endblock %}

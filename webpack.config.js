@@ -8,7 +8,8 @@ Encore
   .setOutputPath('public/build/')
   .setPublicPath('/build')
 
-  .addEntry('base', './assets/chunks/base.js')
+  .addEntry('base', './assets/js/base.js')
+  .addEntry('index', './assets/js/index.js')
 
   .splitEntryChunks()
 
@@ -22,7 +23,7 @@ Encore
   .enableSassLoader()
   .enablePostCssLoader()
 
-  .enableSourceMaps(!Encore.isProduction())
+  .enableReactPreset()
 ;
 
 module.exports = Encore.getWebpackConfig();
