@@ -24,6 +24,12 @@ Encore
   .enablePostCssLoader()
 
   .enableReactPreset()
+
+  .copyFiles({
+    from: './assets/images',
+    to: 'images/[path][name].[ext]',
+    pattern: /\.(png|svg|jpg|jpeg|gif|ico)$/
+  })
 ;
 
 module.exports = Encore.getWebpackConfig();
