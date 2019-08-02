@@ -18,6 +18,11 @@ Encore
   .enableBuildNotifications()
   .enableSourceMaps(!Encore.isProduction())
   .enableVersioning(Encore.isProduction())
+
+  .enableSassLoader()
+  .enablePostCssLoader()
+
+  .enableSourceMaps(!Encore.isProduction())
 ;
 
 module.exports = Encore.getWebpackConfig();
