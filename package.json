@@ -23,5 +23,8 @@
     "react-dom": "^16.8.6",
     "sass-loader": "^7.0.1",
     "webpack-notifier": "^1.6.0"
+  },
+  "dependencies": {
+    "typeface-source-sans-pro": "^0.0.75"
   }
 }
