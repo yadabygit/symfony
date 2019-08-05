@@ -6,6 +6,12 @@
     {{ encore_entry_link_tags('index') }}
   {% endblock %}
 
+{# body #}
+  {% block body %}
+    {# root #}
+      <div id="react-root"></div>
+  {% endblock %}
+
 {# js #}
   {% block javascripts %}
     {{ parent() }}

@@ -1,0 +1,20 @@
+@charset 'UTF-8';
+@import './vars';
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100%;
+  padding: 0;
+
+  background-color: $white-smoke;
+  color: $gray-46;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 16pt;
+  font-weight: 300;
+  letter-spacing: -0.015em;
+}
